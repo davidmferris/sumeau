@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+%html
+  %head
+    %title Sumeau
+    %meta(name="description" content="The official site of sumeau")
+    %meta(name="keywords" content="sumeau music")
+    %meta(name="title" content="sumeau official site")
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+
+%body
+
+  = yield
+
+
+

@@ -39,6 +39,10 @@ GEM
     coffee-script-source (1.6.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    font-awesome-rails (4.0.3.1)
+      railties (>= 3.2, < 5.0)
+    haml (4.0.5)
+      tilt
     hike (1.2.3)
     i18n (0.6.9)
     journey (1.0.4)
@@ -93,6 +97,11 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    twitter-bootstrap-rails (2.2.8)
+      actionpack (>= 3.1)
+      execjs
+      rails (>= 3.1)
+      railties (>= 3.1)
     tzinfo (0.3.38)
     uglifier (2.4.0)
       execjs (>= 0.3.0)
@@ -103,8 +112,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  font-awesome-rails
+  haml (~> 4.0.4)
   jquery-rails
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
   sqlite3
+  twitter-bootstrap-rails
   uglifier (>= 1.0.3)

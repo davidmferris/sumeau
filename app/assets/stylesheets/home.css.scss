@@ -1,0 +1,34 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.video-wrapper {
+  position: absolute;
+}
+
+.logo, .cat, .links {
+  position: fixed;
+  z-index: 2;
+}
+
+.logo {
+  top: 20px;
+  left: 20px;
+}
+
+.cat {
+  right: 10px;
+  bottom: 0;
+}
+
+.links {
+  bottom: 10px;
+  left: 25px;
+  border-top-right-radius: 5px;
+
+  .facebook {
+    width: 32px;
+    height: 32px;
+  }
+}
+
