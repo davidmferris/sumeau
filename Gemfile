@@ -9,6 +9,7 @@ gem 'pg'
 gem 'haml', '~> 4.0.4'
 gem "twitter-bootstrap-rails"
 gem "font-awesome-rails"
+gem 'newrelic_rpm'
 
 
 # Gems used only for assets and not required
